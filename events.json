@@ -1,0 +1,191 @@
+[
+  {
+    "index": 0,
+    "event": "created",
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      8,
+      5,
+      430800
+    ]
+  },
+  {
+    "duration": 4.150713,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 1,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      9,
+      32,
+      998519
+    ]
+  },
+  {
+    "duration": 4.377447,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 2,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      12,
+      14,
+      777077
+    ]
+  },
+  {
+    "duration": 4.163659,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 3,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      13,
+      16,
+      981032
+    ]
+  },
+  {
+    "duration": 4.130287,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 4,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      17,
+      4,
+      930091
+    ]
+  },
+  {
+    "duration": 2.865255,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 5,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      20,
+      54,
+      430040
+    ]
+  },
+  {
+    "duration": 2.814228,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 6,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      23,
+      5,
+      455247
+    ]
+  },
+  {
+    "duration": 2.485795,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 7,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      25,
+      16,
+      762967
+    ]
+  },
+  {
+    "duration": 3.232291,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 8,
+    "time": [
+      2023,
+      5,
+      9,
+      22,
+      26,
+      5,
+      558871
+    ]
+  },
+  {
+    "duration": 4.333611,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 9,
+    "time": [
+      2023,
+      5,
+      10,
+      17,
+      29,
+      52,
+      539505
+    ]
+  },
+  {
+    "duration": 4.340336,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 10,
+    "time": [
+      2023,
+      5,
+      10,
+      18,
+      15,
+      5,
+      964206
+    ]
+  },
+  {
+    "duration": 4.382798,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 11,
+    "time": [
+      2023,
+      5,
+      10,
+      18,
+      15,
+      42,
+      264991
+    ]
+  }
+]

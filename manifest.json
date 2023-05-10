@@ -1,0 +1,22 @@
+{
+  "display_name": "Java, Cucumber",
+  "image_name": "cyberdojofoundation/java_cucumber_pico:b62386b",
+  "filename_extension": [
+    ".java",
+    ".feature"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4,
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2023,
+    5,
+    9,
+    22,
+    8,
+    5,
+    430800
+  ],
+  "id": "TSwcQJ"
+}

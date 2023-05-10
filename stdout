@@ -1,0 +1,105 @@
+JUnit version 4.13
+.
+Scenario: Substituting S or s with $                                            # Hiker.feature:6
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "secret"                                                    # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "s3cr3t!"                                         # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting I or i with 1                                            # Hiker.feature:15
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "initial"                                                   # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "1nitial!"                                        # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "inside"                                                    # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "1nside!"                                         # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting A or a with @                                            # Hiker.feature:24
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "attack"                                                    # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "@ttack!"                                         # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting T or t with 7                                            # Hiker.feature:33
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "test"                                                      # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "7est!"                                           # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "trust"                                                     # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "7ru$t!"                                          # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting E or e with 3                                            # Hiker.feature:42
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "secret"                                                    # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "s3cr3t!"                                         # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting G or g with 9                                            # Hiker.feature:51
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "game"                                                      # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "9ame!"                                           # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "gadget"                                                    # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "9adg3t!"                                         # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting O or o with 0                                            # Hiker.feature:60
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "color"                                                     # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "c0l0r!"                                          # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting B or b with 8                                            # Hiker.feature:69
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "big"                                                       # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "8ig!"                                            # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "baby"                                                      # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "b@8y!"                                           # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting H or h with 4                                            # Hiker.feature:78
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "hello"                                                     # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "h3ll0!"                                          # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: Substituting Z or z with 2                                            # Hiker.feature:87
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "password"                                                  # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "p@$$word!"                                       # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "buzz"                                                      # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "bu22!"                                           # HikerStepDef.the_password_should_be(java.lang.String)
+.
+Scenario: In a word phrase Substituting H or h with 4                           # Hiker.feature:96
+  Given a memorable word or phrase written as a contiguous string of characters # HikerStepDef.a_memorable_word_or_phrase_written_as_a_contiguous_string_of_characters()
+  Given the word is "My password"                                               # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "My p@$$word!"                                    # HikerStepDef.the_password_should_be(java.lang.String)
+  Given the word is "hello world"                                               # HikerStepDef.the_word_is(java.lang.String)
+  When I generate a password                                                    # HikerStepDef.i_generate_a_password()
+  Then the password should be "h3ll0 w0rld!"                                    # HikerStepDef.the_password_should_be(java.lang.String)
+
+Time: 0.431
+
+OK (11 tests)
+
